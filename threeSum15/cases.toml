@@ -1,0 +1,14 @@
+entrypoint = "threeSum"
+unordered_output = true
+
+[[cases]]
+input = [[-1,0,1,2,-1,-4]]
+output = [[-1,-1,2],[-1,0,1]]
+
+[[cases]]
+input = [[0,1,1]]
+output = []
+
+[[cases]]
+input = [[0,0,0]]
+output = [[0,0,0]]
