@@ -1,0 +1,14 @@
+entrypoint = "groupAnagrams"
+unordered_output = true
+
+[[cases]]
+input = [["eat", "tea", "tan", "ate", "nat", "bat"]]
+output = [["bat"],["nat","tan"],["ate","eat","tea"]]
+
+[[cases]]
+input = [[""]]
+output = [[""]]
+
+[[cases]]
+input = [["a"]]
+output = [["a"]]
